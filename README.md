@@ -32,41 +32,6 @@ and production-ready**.
 - **Environment Config:** dotenv
 
 ---
-
-
-## 📁 Project Structure
-
-nutrify-api/
-│
-├── config/
-│ └── db.js
-│
-├── controllers/
-│ ├── authController.js
-│ ├── foodController.js
-│ └── trackingController.js
-│
-├── middleware/
-│ └── verifyToken.js
-│
-├── models/
-│ ├── userModel.js
-│ ├── foodModel.js
-│ └── trackingModel.js
-│
-├── routes/
-│ ├── authRoutes.js
-│ ├── foodRoutes.js
-│ └── trackingRoutes.js
-│
-├── .env.example
-├── .gitignore
-├── index.js
-├── package.json
-└── package-lock.json
-
-
-
 ---
 
 ## ⚙️ Environment Variables
@@ -78,14 +43,6 @@ PORT=8000
 MONGO_URL=mongodb://localhost:27017/nutrify
 JWT_SECRET=nutrify
 ```
-
-
-# Clone the repository
-git clone https://github.com/your-username/nutrify-api.git
-
-# Navigate to the project directory
-cd nutrify-api
-
 # Install dependencies
 npm install
 
